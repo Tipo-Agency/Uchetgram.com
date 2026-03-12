@@ -1,0 +1,408 @@
+{
+  "common": {
+    "search": "Search...",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "save": "Save",
+    "cancel": "Cancel",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "error": "Error"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "tasks": "Tasks",
+    "crm": "CRM",
+    "finance": "Finance",
+    "marketplace": "Marketplace",
+    "analytics": "Analytics",
+    "hr": "HR"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "stats": {
+      "incoming": "Incoming",
+      "outgoing": "Outgoing",
+      "tasks": "Tasks",
+      "team": "Team",
+      "growth": "+{{value}}% from last week",
+      "today": "+{{value}} today",
+      "overdue": "{{value}} overdue",
+      "online": "All online"
+    },
+    "activity_feed": "Activity Feed",
+    "filter_all": "All",
+    "filter_mine": "Only mine",
+    "notifications": "Important Notifications",
+    "quick_actions": "Quick Actions",
+    "action_task": "Task",
+    "action_expense": "Expense",
+    "action_document": "Document",
+    "action_lead": "Lead"
+  },
+  "tasks": {
+    "title": "Task Management",
+    "view_list": "List",
+    "view_kanban": "Kanban",
+    "view_gantt": "Gantt",
+    "add_task": "New Task",
+    "search_placeholder": "Search tasks...",
+    "filters": "Filters",
+    "status": {
+      "todo": "To Do",
+      "in_progress": "In Progress",
+      "review": "Review",
+      "done": "Done",
+      "cancelled": "Cancelled"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "table": {
+      "status": "Status",
+      "task": "Task",
+      "priority": "Priority",
+      "assignee": "Assignee",
+      "deadline": "Deadline",
+      "progress": "Progress"
+    },
+    "gantt": {
+      "tasks_sidebar": "Tasks"
+    },
+    "details": {
+      "title": "Task Details",
+      "assignee": "Assignee",
+      "due_date": "Due Date",
+      "description": "Description",
+      "checklist": "Checklist",
+      "tags": "Tags",
+      "add_tag": "Add",
+      "start_task": "Start Task",
+      "complete_task": "Complete",
+      "not_set": "Not set",
+      "no_description": "No description available"
+    }
+  },
+  "documents": {
+    "title": "Documents",
+    "search_placeholder": "Search documents...",
+    "create": "Create",
+    "empty_title": "It's empty here",
+    "empty_desc": "Upload files or create a new document",
+    "elements": "{{count}} items",
+    "updated_at": "Updated {{date}}",
+    "share": "Share",
+    "external_resource": "External Resource",
+    "external_resource_desc": "This document is located on an external service. Click the button below to open it.",
+    "open_new_tab": "Open in new tab",
+    "download": "Download",
+    "full_screen": "Full Screen",
+    "preview_unavailable": "Preview unavailable",
+    "preview_unavailable_desc": "Preview for this file type is currently unavailable."
+  },
+  "analytics": {
+    "title": "Analytics",
+    "tabs": {
+      "finance": "Finance",
+      "sales": "Sales",
+      "ops": "Operations"
+    },
+    "filters": "Filters",
+    "export_pdf": "Export PDF",
+    "metrics": {
+      "revenue": "Revenue",
+      "expenses": "Expenses",
+      "net_profit": "Net Profit",
+      "margin": "Margin",
+      "new_leads": "New Leads",
+      "conversion": "Conversion",
+      "avg_check": "Avg Check",
+      "ltv": "LTV",
+      "tasks_completed": "Tasks Completed",
+      "avg_completion_time": "Avg Completion Time",
+      "active_processes": "Active Processes",
+      "efficiency": "Efficiency"
+    },
+    "charts": {
+      "dynamics_title": "Metrics Dynamics",
+      "dynamics_desc": "Comparing current period with previous",
+      "current": "Current",
+      "previous": "Previous",
+      "distribution_title": "Distribution",
+      "distribution_desc": "By categories / departments"
+    },
+    "team_efficiency": "Team Efficiency",
+    "sales_funnel": "Sales Funnel",
+    "tasks_count": "{{count}} tasks",
+    "funnel_steps": {
+      "leads": "Leads",
+      "qualified": "Qualified",
+      "proposal": "Proposal",
+      "negotiations": "Negotiations",
+      "deal": "Deal"
+    }
+  },
+  "finance": {
+    "title": "Finance",
+    "tabs": {
+      "overview": "Overview",
+      "transactions": "Transactions",
+      "planning": "Planning",
+      "requests": "Requests"
+    },
+    "sync_1c": "Sync with 1C",
+    "new_transaction": "New Transaction",
+    "total_balance": "Total Balance",
+    "income": "Income ({{month}})",
+    "expense": "Expenses ({{month}})",
+    "growth_month": "{{value}}% from last month",
+    "plan_progress": "{{value}}% of plan completed",
+    "budget_spent": "{{value}}% of budget spent",
+    "expense_distribution": "Expense Distribution by Category",
+    "reconciliation": "Bank & 1C Reconciliation",
+    "synced_ago": "Synced {{time}} ago",
+    "unreconciled_ops": "{{count}} unreconciled operations",
+    "reconcile": "Reconcile",
+    "search_placeholder": "Search transactions...",
+    "filters": "Filters",
+    "upload_statement": "Upload Statement",
+    "export": "Export",
+    "table": {
+      "date": "Date",
+      "description": "Description",
+      "category": "Category",
+      "amount": "Amount",
+      "source": "Source",
+      "status": "Status"
+    },
+    "status": {
+      "reconciled": "Reconciled",
+      "pending": "Pending",
+      "approved": "Approved",
+      "on_approval": "On Approval"
+    },
+    "planning_title": "Financial Plan: {{period}}",
+    "prev_period": "Previous Period",
+    "save_plan": "Save Plan",
+    "expense_items": "Expense Items",
+    "fixed": "Fixed",
+    "percentage": "Percentage ({{value}}% {{base}})",
+    "from_turnover": "from turnover",
+    "from_profit": "from profit",
+    "plan_value": "Plan: {{value}}",
+    "add_item": "+ Add Item",
+    "forecast": "Period Forecast",
+    "expected_profit": "Expected Profit",
+    "margin": "Margin",
+    "break_even": "Break-even Point",
+    "requests_title": "Fund Allocation Requests",
+    "create_request": "Create Request",
+    "category_label": "Category: {{category}}",
+    "reject": "Reject",
+    "approve": "Approve",
+    "pay": "Pay"
+  },
+  "marketplace": {
+    "title": "Ready-made solutions for your business",
+    "subtitle": "Install industry modules and integrations in one click.",
+    "all": "All solutions",
+    "industry": "Industry",
+    "integration": "Integrations",
+    "automation": "Automation",
+    "search_placeholder": "Search solutions...",
+    "my_purchases": "My Purchases",
+    "partners": "For Partners",
+    "top_10": "View Top 10",
+    "how_it_works": "How it works?",
+    "sort_by": "Sort by:",
+    "popularity": "By popularity",
+    "install_now": "Install Now",
+    "details": "Details",
+    "free": "Free",
+    "price_from": "from {{price}} ₽ / mo",
+    "not_found": "Nothing found",
+    "not_found_desc": "Try changing search parameters or category"
+  },
+  "landing": {
+    "nav": {
+      "features": "Features",
+      "industries": "Industries",
+      "integrations": "Integrations",
+      "pricing": "Pricing",
+      "login": "Login",
+      "start": "Start Growing"
+    },
+    "hero": {
+      "badge": "The future of automation is here",
+      "title": "Stop just working. Start dominating the market",
+      "subtitle": "Uchetgram is not just a CRM. It's your digital director that squeezes maximum profit from every client while you rest.",
+      "cta_start": "Start growing for free",
+      "cta_demo": "Watch demo"
+    },
+    "trust": {
+      "title": "Market leaders choose Uchetgram"
+    },
+    "features": {
+      "title": "Uchetgram Features",
+      "subtitle": "All business management tools in one system. Forget about dozens of spreadsheets and scattered services.",
+      "items": {
+        "booking": "Online Booking",
+        "booking_desc": "24/7 booking via website and social media",
+        "crm": "Client Base",
+        "crm_desc": "Full history of visits and preferences",
+        "journal": "Electronic Journal",
+        "journal_desc": "Convenient schedule and shift management",
+        "notifications": "Notifications",
+        "notifications_desc": "SMS, WhatsApp, and Push reminders",
+        "payments": "Payment Processing",
+        "payments_desc": "Online payment and integration with cash registers",
+        "analytics": "Analytics",
+        "analytics_desc": "Revenue, staff, and client reports",
+        "loyalty": "Loyalty Programs",
+        "loyalty_desc": "Bonuses, discounts, and gift certificates",
+        "finance": "Financial Accounting",
+        "finance_desc": "Expense control and profit calculation",
+        "security": "Data Security",
+        "security_desc": "Access rights differentiation and logging",
+        "salary": "Payroll Calculation",
+        "salary_desc": "Automatic KPI and percentage calculation",
+        "inventory": "Inventory Management",
+        "inventory_desc": "Stock control and consumable write-offs",
+        "telephony": "Telephony",
+        "telephony_desc": "Call recording and client card on call"
+      }
+    },
+    "industries": {
+      "title": "Solutions for Your Business",
+      "subtitle": "We adapted Uchetgram to the specifics of various industries. Choose your direction and start working more efficiently.",
+      "items": {
+        "beauty": "Beauty",
+        "medical": "Medical",
+        "sport": "Sport",
+        "leisure": "Leisure & Recreation",
+        "education": "Education",
+        "auto": "Auto",
+        "services": "Home Services",
+        "retail": "Retail",
+        "private": "Private Specialist"
+      }
+    },
+    "pricing": {
+      "title": "Simple and Fair Pricing",
+      "subtitle": "Choose a plan that fits your business scale. No hidden fees.",
+      "popular": "Popular Choice",
+      "month": "$/mo",
+      "cta_free": "Start for free",
+      "cta_trial": "Try for free",
+      "cta_contact": "Contact us"
+    },
+    "cta": {
+      "title": "Ready to bring order to your business?",
+      "subtitle": "Start using Uchetgram today. First 14 days free, no credit card required.",
+      "button": "Create Account",
+      "contact": "Contact Sales"
+    },
+    "footer": {
+      "desc": "Professional ERP system for small and medium businesses. Made with love for data."
+    }
+  },
+  "processes": {
+    "title": "Business Processes",
+    "search_placeholder": "Search processes...",
+    "filters": "Filters",
+    "templates": "Templates",
+    "start_process": "Start Process",
+    "status_active": "Active",
+    "status_completed": "Completed",
+    "steps_count": "{{completed}} / {{total}} steps",
+    "id": "ID: {{id}}",
+    "started_at": "Started {{date}}",
+    "pause": "Pause",
+    "cancel": "Cancel",
+    "step_type": {
+      "task": "Task",
+      "decision": "Decision",
+      "end": "End"
+    },
+    "assignee": "Assignee",
+    "waiting_action": "Waiting for your action",
+    "complete_step": "Complete Step",
+    "completed_at": "Completed {{date}}",
+    "result": "Result: {{result}}",
+    "select_process": "Select a process",
+    "select_process_desc": "Select an active business process from the list on the left"
+  },
+  "sales": {
+    "title": "Sales",
+    "filters": "Filters",
+    "search": "Search",
+    "export": "Export",
+    "new_lead": "New Lead",
+    "add": "Add",
+    "stages": {
+      "new": "New",
+      "qualify": "Qualification",
+      "proposal": "Proposal",
+      "negotiation": "Negotiation",
+      "closing": "Closing"
+    },
+    "priorities": {
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "tabs": {
+      "general": "General Settings",
+      "users": "Team & Roles",
+      "integrations": "Integrations",
+      "security": "Security",
+      "billing": "Plan & Billing"
+    },
+    "general": {
+      "title": "General Settings",
+      "desc": "Manage your company's basic information",
+      "company_name": "Company Name",
+      "currency": "Currency",
+      "timezone": "Timezone",
+      "save": "Save Changes",
+      "danger_zone": "Danger Zone",
+      "delete_account": "Delete Account",
+      "delete_desc": "Deleting your account will result in permanent loss of all data."
+    },
+    "users": {
+      "title": "Team",
+      "desc": "Manage employee access to the system",
+      "invite": "Invite",
+      "status_active": "Active",
+      "status_invited": "Invited"
+    },
+    "integrations": {
+      "title": "Integrations",
+      "desc": "Connect external services for automation",
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "sync": "Sync: {{time}}",
+      "setup": "Setup",
+      "connect": "Connect"
+    },
+    "billing": {
+      "title": "Plan & Billing",
+      "desc": "Manage subscription and financial documents",
+      "current_plan": "Current Plan",
+      "active_until": "Active until {{date}}",
+      "upgrade": "Upgrade Plan",
+      "payment_history": "Payment History",
+      "invoice_no": "Invoice No. {{no}}"
+    }
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "common": {
+    "search": "Qidiruv...",
+    "notifications": "Bildirishnomalar",
+    "profile": "Profil",
+    "settings": "Sozlamalar",
+    "logout": "Chiqish",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "add": "Qo'shish",
+    "edit": "O'zgartirish",
+    "delete": "O'chirish",
+    "loading": "Yuklanmoqda...",
+    "error": "Xato"
+  },
+  "nav": {
+    "dashboard": "Boshqaruv paneli",
+    "tasks": "Vazifalar",
+    "crm": "CRM",
+    "finance": "Moliya",
+    "marketplace": "Marketpleys",
+    "analytics": "Analitika",
+    "hr": "Xodimlar"
+  },
+  "dashboard": {
+    "title": "Ish stoli",
+    "stats": {
+      "incoming": "Kiruvchi",
+      "outgoing": "Chiquvchi",
+      "tasks": "Vazifalar",
+      "team": "Jamoa",
+      "growth": "O'tgan haftadan beri +{{value}}%",
+      "today": "Bugun +{{value}}",
+      "overdue": "{{value}} muddati o'tgan",
+      "online": "Hammasi onlayn"
+    },
+    "activity_feed": "Faollik tasmasi",
+    "filter_all": "Hammasi",
+    "filter_mine": "Faqat meniki",
+    "notifications": "Muhim bildirishnomalar",
+    "quick_actions": "Tezkor harakatlar",
+    "action_task": "Vazifa",
+    "action_expense": "Xarajat",
+    "action_document": "Hujjat",
+    "action_lead": "Lid"
+  },
+  "dashboard": {
+    "title": "Ish stoli",
+    "stats": {
+      "incoming": "Kiruvchi",
+      "outgoing": "Chiquvchi",
+      "tasks": "Vazifalar",
+      "team": "Jamoa",
+      "growth": "O'tgan haftadan beri +{{value}}%",
+      "today": "Bugun +{{value}}",
+      "overdue": "{{value}} muddati o'tgan",
+      "online": "Hammasi onlayn"
+    },
+    "activity_feed": "Faollik tasmasi",
+    "filter_all": "Hammasi",
+    "filter_mine": "Faqat meniki",
+    "notifications": "Muhim bildirishnomalar",
+    "quick_actions": "Tezkor harakatlar",
+    "action_task": "Vazifa",
+    "action_expense": "Xarajat",
+    "action_document": "Hujjat",
+    "action_lead": "Lid"
+  },
+  "tasks": {
+    "title": "Vazifalarni boshqarish",
+    "view_list": "Ro'yxat",
+    "view_kanban": "Kanban",
+    "view_gantt": "Gant",
+    "add_task": "Yangi vazifa",
+    "search_placeholder": "Vazifalarni qidirish...",
+    "filters": "Filtrlar",
+    "status": {
+      "todo": "Bajarilishi kerak",
+      "in_progress": "Jarayonda",
+      "review": "Tekshiruv",
+      "done": "Bajarildi",
+      "cancelled": "Bekor qilindi"
+    },
+    "priority": {
+      "low": "Past",
+      "medium": "O'rta",
+      "high": "Yuqori",
+      "critical": "Kritik"
+    },
+    "table": {
+      "status": "Holat",
+      "task": "Vazifa",
+      "priority": "Muhimlik",
+      "assignee": "Mas'ul",
+      "deadline": "Muddat",
+      "progress": "Progress"
+    },
+    "gantt": {
+      "tasks_sidebar": "Vazifalar"
+    },
+    "details": {
+      "title": "Vazifa tafsilotlari",
+      "assignee": "Mas'ul",
+      "due_date": "Bajarish muddati",
+      "description": "Tavsif",
+      "checklist": "Nazorat ro'yxati",
+      "tags": "Teglar",
+      "add_tag": "Qo'shish",
+      "start_task": "Boshlash",
+      "complete_task": "Tugatish",
+      "not_set": "Belgilanmagan",
+      "no_description": "Tavsif mavjud emas"
+    }
+  },
+  "documents": {
+    "title": "Hujjatlar",
+    "search_placeholder": "Hujjatlarni qidirish...",
+    "create": "Yaratish",
+    "empty_title": "Hozircha bo'sh",
+    "empty_desc": "Fayllarni yuklang yoki yangi hujjat yarating",
+    "elements": "{{count}} ta element",
+    "updated_at": "Yangilangan vaqti: {{date}}",
+    "share": "Ulashish",
+    "external_resource": "Tashqi resurs",
+    "external_resource_desc": "Ushbu hujjat tashqi xizmatda joylashgan. Uni ochish uchun quyidagi tugmani bosing.",
+    "open_new_tab": "Yangi tabda ochish",
+    "download": "Yuklab olish",
+    "full_screen": "To'liq ekranda",
+    "preview_unavailable": "Oldindan ko'rish imkoniyati yo'q",
+    "preview_unavailable_desc": "Ushbu turdagi faylni oldindan ko'rish vaqtincha imkonsiz."
+  },
+  "analytics": {
+    "title": "Analitika",
+    "tabs": {
+      "finance": "Moliya",
+      "sales": "Sotuvlar",
+      "ops": "Operatsiyalar"
+    },
+    "filters": "Filtrlar",
+    "export_pdf": "PDF eksport",
+    "metrics": {
+      "revenue": "Tushum",
+      "expenses": "Xarajatlar",
+      "net_profit": "Sof foyda",
+      "margin": "Marjinallik",
+      "new_leads": "Yangi lidlar",
+      "conversion": "Konversiya",
+      "avg_check": "O'rtacha chek",
+      "ltv": "LTV",
+      "tasks_completed": "Bajarilgan vazifalar",
+      "avg_completion_time": "O'rtacha bajarish vaqti",
+      "active_processes": "Faol jarayonlar",
+      "efficiency": "Samaradorlik"
+    },
+    "charts": {
+      "dynamics_title": "Ko'rsatkichlar dinamikasi",
+      "dynamics_desc": "Joriy davrni oldingi davr bilan solishtirish",
+      "current": "Joriy",
+      "previous": "Oldingi",
+      "distribution_title": "Taqsimot",
+      "distribution_desc": "Toifalar / bo'limlar bo'yicha"
+    },
+    "team_efficiency": "Jamoa samaradorligi",
+    "sales_funnel": "Sotuv voronkasi",
+    "tasks_count": "{{count}} ta vazifa",
+    "funnel_steps": {
+      "leads": "Lidlar",
+      "qualified": "Malakali",
+      "proposal": "Taklif",
+      "negotiations": "Muzokaralar",
+      "deal": "Bitim"
+    }
+  },
+  "analytics": {
+    "title": "Analitika",
+    "tabs": {
+      "finance": "Moliya",
+      "sales": "Sotuvlar",
+      "ops": "Operatsiyalar"
+    },
+    "filters": "Filtrlar",
+    "export_pdf": "PDF eksport",
+    "metrics": {
+      "revenue": "Tushum",
+      "expenses": "Xarajatlar",
+      "net_profit": "Sof foyda",
+      "margin": "Marjinallik",
+      "new_leads": "Yangi lidlar",
+      "conversion": "Konversiya",
+      "avg_check": "O'rtacha chek",
+      "ltv": "LTV",
+      "tasks_completed": "Bajarilgan vazifalar",
+      "avg_completion_time": "O'rtacha bajarish vaqti",
+      "active_processes": "Faol jarayonlar",
+      "efficiency": "Samaradorlik"
+    },
+    "charts": {
+      "dynamics_title": "Ko'rsatkichlar dinamikasi",
+      "dynamics_desc": "Joriy davrni oldingi davr bilan solishtirish",
+      "current": "Joriy",
+      "previous": "Oldingi",
+      "distribution_title": "Taqsimot",
+      "distribution_desc": "Toifalar / bo'limlar bo'yicha"
+    },
+    "team_efficiency": "Jamoa samaradorligi",
+    "sales_funnel": "Sotuv voronkasi",
+    "tasks_count": "{{count}} ta vazifa",
+    "funnel_steps": {
+      "leads": "Lidlar",
+      "qualified": "Malakali",
+      "proposal": "Taklif",
+      "negotiations": "Muzokaralar",
+      "deal": "Bitim"
+    }
+  },
+  "finance": {
+    "title": "Moliya",
+    "tabs": {
+      "overview": "Umumiy ko'rinish",
+      "transactions": "Operatsiyalar",
+      "planning": "Rejalashtirish",
+      "requests": "Arizalar"
+    },
+    "sync_1c": "1C bilan sinxronlash",
+    "new_transaction": "Yangi operatsiya",
+    "total_balance": "Umumiy balans",
+    "income": "Daromadlar ({{month}})",
+    "expense": "Xarajatlar ({{month}})",
+    "growth_month": "O'tgan oyga nisbatan {{value}}%",
+    "plan_progress": "Rejaning {{value}}% bajarildi",
+    "budget_spent": "Budjetning {{value}}% sarflandi",
+    "expense_distribution": "Xarajatlarning moddalar bo'yicha taqsimlanishi",
+    "reconciliation": "1C va banklar bilan solishtirish",
+    "synced_ago": "{{time}} oldin sinxronlangan",
+    "unreconciled_ops": "{{count}} ta taqsimlanmagan operatsiya mavjud",
+    "reconcile": "Solishtirish",
+    "search_placeholder": "Operatsiyalar bo'yicha qidirish...",
+    "filters": "Filtrlar",
+    "upload_statement": "Ko'chirmani yuklash",
+    "export": "Eksport",
+    "table": {
+      "date": "Sana",
+      "description": "Tavsif",
+      "category": "Toifa",
+      "amount": "Summa",
+      "source": "Manba",
+      "status": "Holat"
+    },
+    "status": {
+      "reconciled": "Solishtirilgan",
+      "pending": "Kutilmoqda",
+      "approved": "Tasdiqlangan",
+      "on_approval": "Kelishuvda"
+    },
+    "planning_title": "Moliyaviy reja: {{period}}",
+    "prev_period": "Oldingi davr",
+    "save_plan": "Rejani saqlash",
+    "expense_items": "Xarajat moddalari",
+    "fixed": "Fiks",
+    "percentage": "Foiz ({{value}}% {{base}})",
+    "from_turnover": "oborotdan",
+    "from_profit": "foydadan",
+    "plan_value": "Reja: {{value}} so'm",
+    "add_item": "+ Modda qo'shish",
+    "forecast": "Davr uchun prognoz",
+    "expected_profit": "Kutilayotgan foyda",
+    "margin": "Marjinallik",
+    "break_even": "Zararsizlik nuqtasi",
+    "requests_title": "Mablag' ajratish uchun arizalar",
+    "create_request": "Ariza yaratish",
+    "category_label": "Toifa: {{category}}",
+    "reject": "Rad etish",
+    "approve": "Tasdiqlash",
+    "pay": "To'lash"
+  },
+  "documents": {
+    "title": "Hujjatlar",
+    "search_placeholder": "Hujjatlarni qidirish...",
+    "create": "Yaratish",
+    "empty_title": "Hozircha bo'sh",
+    "empty_desc": "Fayllarni yuklang yoki yangi hujjat yarating",
+    "elements": "{{count}} ta element",
+    "updated_at": "Yangilangan vaqti: {{date}}",
+    "share": "Ulashish",
+    "external_resource": "Tashqi resurs",
+    "external_resource_desc": "Ushbu hujjat tashqi xizmatda joylashgan. Uni ochish uchun quyidagi tugmani bosing.",
+    "open_new_tab": "Yangi tabda ochish",
+    "download": "Yuklab olish",
+    "full_screen": "To'liq ekranda",
+    "preview_unavailable": "Oldindan ko'rish imkoniyati yo'q",
+    "preview_unavailable_desc": "Ushbu turdagi faylni oldindan ko'rish vaqtincha imkonsiz."
+  },
+  "marketplace": {
+    "title": "Biznesingiz uchun tayyor yechimlar",
+    "subtitle": "Sohaviy modullar va integratsiyalarni bir marta bosish orqali o'rnating.",
+    "all": "Barcha yechimlar",
+    "industry": "Sohaviy",
+    "integration": "Integratsiyalar",
+    "automation": "Avtomatlashtirish",
+    "search_placeholder": "Yechimlarni qidirish...",
+    "my_purchases": "Xaridlarim",
+    "partners": "Hamkorlarga",
+    "top_10": "Top-10 ni ko'rish",
+    "how_it_works": "Bu qanday ishlaydi?",
+    "sort_by": "Saralash:",
+    "popularity": "Ommabopligi bo'yicha",
+    "install_now": "Hozir o'rnatish",
+    "details": "Batafsil",
+    "free": "Bepul",
+    "price_from": "oyiga {{price}} so'mdan",
+    "not_found": "Hech narsa topilmadi",
+    "not_found_desc": "Qidiruv parametrlarini yoki toifani o'zgartirib ko'ring"
+  },
+  "landing": {
+    "nav": {
+      "features": "Imkoniyatlar",
+      "industries": "Kimlar uchun",
+      "integrations": "Integratsiyalar",
+      "pricing": "Narxlar",
+      "login": "Kirish",
+      "start": "O'sishni boshlash"
+    },
+    "hero": {
+      "badge": "Avtomatlashtirish kelajagi shu yerda",
+      "title": "Shunchaki ishlashni to'xtating. Bozorda ustunlikni boshlang",
+      "subtitle": "Uchetgram — bu shunchaki CRM emas. Bu siz dam olayotganingizda har bir mijozdan maksimal foyda oladigan raqamli direktoringizdir.",
+      "cta_start": "Bepul o'sishni boshlang",
+      "cta_demo": "Demoni ko'rish"
+    },
+    "trust": {
+      "title": "Bozor yetakchilari Uchetgramni tanlaydilar"
+    },
+    "features": {
+      "title": "Uchetgram imkoniyatlari",
+      "subtitle": "Bitta tizimda biznesni boshqarish uchun barcha vositalar. O'nlab jadvallar va tarqoq xizmatlarni unuting.",
+      "items": {
+        "booking": "Onlayn-yozilish",
+        "booking_desc": "Sayt va ijtimoiy tarmoqlar orqali 24/7 yozilish",
+        "crm": "Mijozlar bazasi",
+        "crm_desc": "Tashriflar va afzalliklarning to'liq tarixi",
+        "journal": "Elektron jurnal",
+        "journal_desc": "Qulay jadval va smenalarni boshqarish",
+        "notifications": "Bildirishnomalar",
+        "notifications_desc": "SMS, WhatsApp va Push-eslatmalar",
+        "payments": "To'lovlarni qabul qilish",
+        "payments_desc": "Onlayn to'lov va kassalar bilan integratsiya",
+        "analytics": "Analitika",
+        "analytics_desc": "Tushum, ustalar va mijozlar bo'yicha hisobotlar",
+        "loyalty": "Sodiqlik dasturlari",
+        "loyalty_desc": "Bonuslar, chegirmalar va sovg'a sertifikatlari",
+        "finance": "Moliyaviy hisob",
+        "finance_desc": "Xarajatlarni nazorat qilish va foydani hisoblash",
+        "security": "Ma'lumotlar xavfsizligi",
+        "security_desc": "Kirish huquqlarini farqlash va loglash",
+        "salary": "Ish haqini hisoblash",
+        "salary_desc": "KPI va foizlarni avtomatik hisoblash",
+        "inventory": "Ombor hisobi",
+        "inventory_desc": "Qoldiqlarni nazorat qilish va sarf materiallarini hisobdan chiqarish",
+        "telephony": "Telefoniya",
+        "telephony_desc": "Qo'ng'iroqlarni yozib olish va qo'ng'iroq paytida mijoz kartochkasi"
+      }
+    },
+    "industries": {
+      "title": "Sizning biznesingiz uchun yechimlar",
+      "subtitle": "Biz Uchetgramni turli sohalarning o'ziga xos xususiyatlariga moslashtirdik. O'z yo'nalishingizni tanlang va samaraliroq ishlashni boshlang.",
+      "items": {
+        "beauty": "Go'zallik",
+        "medical": "Tibbiyot",
+        "sport": "Sport",
+        "leisure": "Dam olish va hordiq",
+        "education": "Ta'lim",
+        "auto": "Avto",
+        "services": "Maishiy xizmatlar",
+        "retail": "Chakana savdo",
+        "private": "Xususiy mutaxassis"
+      }
+    },
+    "pricing": {
+      "title": "Oddiy va halol narxlar",
+      "subtitle": "Biznesingiz ko'lamiga mos tarifni tanlang. Hech qanday yashirin to'lovlar yo'q.",
+      "popular": "Mashhur tanlov",
+      "month": "so'm/oy",
+      "cta_free": "Bepul boshlash",
+      "cta_trial": "Bepul sinab ko'rish",
+      "cta_contact": "Biz bilan bog'laning"
+    },
+    "cta": {
+      "title": "Biznesingizda tartib o'rnatishga tayyormisiz?",
+      "subtitle": "Bugun Uchetgramdan foydalanishni boshlang. Dastlabki 14 kun bepul, bank kartasini bog'lash shart emas.",
+      "button": "Hisob yaratish",
+      "contact": "Sotuv bo'limi bilan bog'lanish"
+    },
+    "footer": {
+      "desc": "Kichik va o'rta biznes uchun professional ERP tizimi. Ma'lumotlarga bo'lgan mehr bilan yaratilgan."
+    }
+  },
+  "landing": {
+    "nav": {
+      "features": "Imkoniyatlar",
+      "industries": "Kimlar uchun",
+      "integrations": "Integratsiyalar",
+      "pricing": "Narxlar",
+      "login": "Kirish",
+      "start": "O'sishni boshlash"
+    },
+    "hero": {
+      "badge": "Avtomatlashtirish kelajagi shu yerda",
+      "title": "Shunchaki ishlashni to'xtating. Bozorda ustunlikni boshlang",
+      "subtitle": "Uchetgram — bu shunchaki CRM emas. Bu siz dam olayotganingizda har bir mijozdan maksimal foyda oladigan raqamli direktoringizdir.",
+      "cta_start": "Bepul o'sishni boshlang",
+      "cta_demo": "Demoni ko'rish"
+    },
+    "trust": {
+      "title": "Bozor yetakchilari Uchetgramni tanlaydilar"
+    },
+    "features": {
+      "title": "Uchetgram imkoniyatlari",
+      "subtitle": "Bitta tizimda biznesni boshqarish uchun barcha vositalar. O'nlab jadvallar va tarqoq xizmatlarni unuting.",
+      "items": {
+        "booking": "Onlayn-yozilish",
+        "booking_desc": "Sayt va ijtimoiy tarmoqlar orqali 24/7 yozilish",
+        "crm": "Mijozlar bazasi",
+        "crm_desc": "Tashriflar va afzalliklarning to'liq tarixi",
+        "journal": "Elektron jurnal",
+        "journal_desc": "Qulay jadval va smenalarni boshqarish",
+        "notifications": "Bildirishnomalar",
+        "notifications_desc": "SMS, WhatsApp va Push-eslatmalar",
+        "payments": "To'lovlarni qabul qilish",
+        "payments_desc": "Onlayn to'lov va kassalar bilan integratsiya",
+        "analytics": "Analitika",
+        "analytics_desc": "Tushum, ustalar va mijozlar bo'yicha hisobotlar",
+        "loyalty": "Sodiqlik dasturlari",
+        "loyalty_desc": "Bonuslar, chegirmalar va sovg'a sertifikatlari",
+        "finance": "Moliyaviy hisob",
+        "finance_desc": "Xarajatlarni nazorat qilish va foydani hisoblash",
+        "security": "Ma'lumotlar xavfsizligi",
+        "security_desc": "Kirish huquqlarini farqlash va loglash",
+        "salary": "Ish haqini hisoblash",
+        "salary_desc": "KPI va foizlarni avtomatik hisoblash",
+        "inventory": "Ombor hisobi",
+        "inventory_desc": "Qoldiqlarni nazorat qilish va sarf materiallarini hisobdan chiqarish",
+        "telephony": "Telefoniya",
+        "telephony_desc": "Qo'ng'iroqlarni yozib olish va qo'ng'iroq paytida mijoz kartochkasi"
+      }
+    },
+    "industries": {
+      "title": "Sizning biznesingiz uchun yechimlar",
+      "subtitle": "Biz Uchetgramni turli sohalarning o'ziga xos xususiyatlariga moslashtirdik. O'z yo'nalishingizni tanlang va samaraliroq ishlashni boshlang.",
+      "items": {
+        "beauty": "Go'zallik",
+        "medical": "Tibbiyot",
+        "sport": "Sport",
+        "leisure": "Dam olish va hordiq",
+        "education": "Ta'lim",
+        "auto": "Avto",
+        "services": "Maishiy xizmatlar",
+        "retail": "Chakana savdo",
+        "private": "Xususiy mutaxassis"
+      }
+    },
+    "pricing": {
+      "title": "Oddiy va halol narxlar",
+      "subtitle": "Biznesingiz ko'lamiga mos tarifni tanlang. Hech qanday yashirin to'lovlar yo'q.",
+      "popular": "Mashhur tanlov",
+      "month": "so'm/oy",
+      "cta_free": "Bepul boshlash",
+      "cta_trial": "Bepul sinab ko'rish",
+      "cta_contact": "Biz bilan bog'laning"
+    },
+    "cta": {
+      "title": "Biznesingizda tartib o'rnatishga tayyormisiz?",
+      "subtitle": "Bugun Uchetgramdan foydalanishni boshlang. Dastlabki 14 kun bepul, bank kartasini bog'lash shart emas.",
+      "button": "Hisob yaratish",
+      "contact": "Sotuv bo'limi bilan bog'lanish"
+    },
+    "footer": {
+      "desc": "Kichik va o'rta biznes uchun professional ERP tizimi. Ma'lumotlarga bo'lgan mehr bilan yaratilgan."
+    }
+  },
+  "processes": {
+    "title": "Biznes jarayonlar",
+    "search_placeholder": "Jarayonlarni qidirish...",
+    "filters": "Filtrlar",
+    "templates": "Andozalar",
+    "start_process": "Jarayonni boshlash",
+    "status_active": "Ishda",
+    "status_completed": "Bajarildi",
+    "steps_count": "{{completed}} / {{total}} qadam",
+    "id": "ID: {{id}}",
+    "started_at": "{{date}} da boshlangan",
+    "pause": "To'xtatib turish",
+    "cancel": "Bekor qilish",
+    "step_type": {
+      "task": "Vazifa",
+      "decision": "Qaror",
+      "end": "Tugash"
+    },
+    "assignee": "Mas'ul",
+    "waiting_action": "Harakatingiz kutilmoqda",
+    "complete_step": "Bosqichni yakunlash",
+    "completed_at": "{{date}} da yakunlandi",
+    "result": "Natija: {{result}}",
+    "select_process": "Jarayonni tanlang",
+    "select_process_desc": "Chapdagi ro'yxatdan faol biznes jarayonini tanlang"
+  },
+  "processes": {
+    "title": "Biznes jarayonlar",
+    "search_placeholder": "Jarayonlarni qidirish...",
+    "filters": "Filtrlar",
+    "templates": "Andozalar",
+    "start_process": "Jarayonni boshlash",
+    "status_active": "Ishda",
+    "status_completed": "Bajarildi",
+    "steps_count": "{{completed}} / {{total}} qadam",
+    "id": "ID: {{id}}",
+    "started_at": "{{date}} da boshlangan",
+    "pause": "To'xtatib turish",
+    "cancel": "Bekor qilish",
+    "step_type": {
+      "task": "Vazifa",
+      "decision": "Qaror",
+      "end": "Tugash"
+    },
+    "assignee": "Mas'ul",
+    "waiting_action": "Harakatingiz kutilmoqda",
+    "complete_step": "Bosqichni yakunlash",
+    "completed_at": "{{date}} da yakunlandi",
+    "result": "Natija: {{result}}",
+    "select_process": "Jarayonni tanlang",
+    "select_process_desc": "Chapdagi ro'yxatdan faol biznes jarayonini tanlang"
+  },
+  "sales": {
+    "title": "Sotuvlar",
+    "filters": "Filtrlar",
+    "search": "Qidiruv",
+    "export": "Eksport",
+    "new_lead": "Yangi lid",
+    "add": "Qo'shish",
+    "stages": {
+      "new": "Yangilar",
+      "qualify": "Malakalash",
+      "proposal": "Taklif",
+      "negotiation": "Muzokaralar",
+      "closing": "Yopilish"
+    },
+    "priorities": {
+      "critical": "Kritik",
+      "high": "Yuqori",
+      "medium": "O'rtacha"
+    }
+  },
+  "settings": {
+    "title": "Sozlamalar",
+    "tabs": {
+      "general": "Umumiy sozlamalar",
+      "users": "Jamoa va rollar",
+      "integrations": "Integratsiyalar",
+      "security": "Xavfsizlik",
+      "billing": "Tarif va to'lov"
+    },
+    "general": {
+      "title": "Umumiy sozlamalar",
+      "desc": "Kompaniyangiz haqidagi asosiy ma'lumotlarni boshqarish",
+      "company_name": "Kompaniya nomi",
+      "currency": "Valyuta",
+      "timezone": "Vaqt zonasi",
+      "save": "O'zgarishlarni saqlash",
+      "danger_zone": "Xavfli zona",
+      "delete_account": "Akkauntni o'chirish",
+      "delete_desc": "Akkauntni o'chirish barcha ma'lumotlarning qaytarib bo'lmaydigan yo'qolishiga olib keladi."
+    },
+    "users": {
+      "title": "Jamoa",
+      "desc": "Xodimlarning tizimga kirishini boshqaring",
+      "invite": "Taklif qilish",
+      "status_active": "Faol",
+      "status_invited": "Taklif qilingan"
+    },
+    "integrations": {
+      "title": "Integratsiyalar",
+      "desc": "Avtomatlashtirish uchun tashqi xizmatlarni ulang",
+      "connected": "Ulangan",
+      "disconnected": "Ulanmagan",
+      "sync": "Sinxronizatsiya: {{time}}",
+      "setup": "Sozlash",
+      "connect": "Ulash"
+    },
+    "billing": {
+      "title": "Tarif va to'lov",
+      "desc": "Obuna va moliyaviy hujjatlarni boshqarish",
+      "current_plan": "Joriy tarif",
+      "active_until": "{{date}} gacha faol",
+      "upgrade": "Tarifni yaxshilash",
+      "payment_history": "To'lovlar tarixi",
+      "invoice_no": "Hisob-faktura №{{no}}"
+    }
+  }
+}

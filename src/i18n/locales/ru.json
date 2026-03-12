@@ -1,0 +1,408 @@
+{
+  "common": {
+    "search": "Поиск...",
+    "notifications": "Уведомления",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "logout": "Выйти",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "add": "Добавить",
+    "edit": "Изменить",
+    "delete": "Удалить",
+    "loading": "Загрузка...",
+    "error": "Ошибка"
+  },
+  "nav": {
+    "dashboard": "Дашборд",
+    "tasks": "Задачи",
+    "crm": "CRM",
+    "finance": "Финансы",
+    "marketplace": "Маркетплейс",
+    "analytics": "Аналитика",
+    "hr": "Персонал"
+  },
+  "dashboard": {
+    "title": "Рабочий стол",
+    "stats": {
+      "incoming": "Входящие",
+      "outgoing": "Исходящие",
+      "tasks": "Задачи",
+      "team": "Команда",
+      "growth": "+{{value}}% с прошлой недели",
+      "today": "+{{value}} сегодня",
+      "overdue": "{{value}} просрочено",
+      "online": "Все в сети"
+    },
+    "activity_feed": "Лента активностей",
+    "filter_all": "Все",
+    "filter_mine": "Только мои",
+    "notifications": "Важные уведомления",
+    "quick_actions": "Быстрые действия",
+    "action_task": "Задача",
+    "action_expense": "Расход",
+    "action_document": "Документ",
+    "action_lead": "Лид"
+  },
+  "tasks": {
+    "title": "Управление задачами",
+    "view_list": "Список",
+    "view_kanban": "Канбан",
+    "view_gantt": "Гант",
+    "add_task": "Новая задача",
+    "search_placeholder": "Поиск задач...",
+    "filters": "Фильтры",
+    "status": {
+      "todo": "К выполнению",
+      "in_progress": "В работе",
+      "review": "Проверка",
+      "done": "Готово",
+      "cancelled": "Отменено"
+    },
+    "priority": {
+      "low": "Низкий",
+      "medium": "Средний",
+      "high": "Высокий",
+      "critical": "Критический"
+    },
+    "table": {
+      "status": "Статус",
+      "task": "Задача",
+      "priority": "Приоритет",
+      "assignee": "Исполнитель",
+      "deadline": "Дедлайн",
+      "progress": "Прогресс"
+    },
+    "gantt": {
+      "tasks_sidebar": "Задачи"
+    },
+    "details": {
+      "title": "Детали задачи",
+      "assignee": "Исполнитель",
+      "due_date": "Срок выполнения",
+      "description": "Описание",
+      "checklist": "Чек-лист",
+      "tags": "Теги",
+      "add_tag": "Добавить",
+      "start_task": "Начать выполнение",
+      "complete_task": "Завершить",
+      "not_set": "Не задан",
+      "no_description": "Описание отсутствует"
+    }
+  },
+  "documents": {
+    "title": "Документы",
+    "search_placeholder": "Поиск документов...",
+    "create": "Создать",
+    "empty_title": "Здесь пока пусто",
+    "empty_desc": "Загрузите файлы или создайте новый документ",
+    "elements": "{{count}} элементов",
+    "updated_at": "Обновлено {{date}}",
+    "share": "Поделиться",
+    "external_resource": "Внешний ресурс",
+    "external_resource_desc": "Этот документ находится на внешнем сервисе. Нажмите кнопку ниже, чтобы открыть его.",
+    "open_new_tab": "Открыть в новой вкладке",
+    "download": "Скачать",
+    "full_screen": "В полный экран",
+    "preview_unavailable": "Предпросмотр недоступен",
+    "preview_unavailable_desc": "Предпросмотр для данного типа файла временно недоступен."
+  },
+  "analytics": {
+    "title": "Аналитика",
+    "tabs": {
+      "finance": "Финансы",
+      "sales": "Продажи",
+      "ops": "Операции"
+    },
+    "filters": "Фильтры",
+    "export_pdf": "Экспорт PDF",
+    "metrics": {
+      "revenue": "Выручка",
+      "expenses": "Расходы",
+      "net_profit": "Чистая прибыль",
+      "margin": "Маржинальность",
+      "new_leads": "Новые лиды",
+      "conversion": "Конверсия",
+      "avg_check": "Средний чек",
+      "ltv": "LTV",
+      "tasks_completed": "Завершено задач",
+      "avg_completion_time": "Ср. время выполнения",
+      "active_processes": "Активных процессов",
+      "efficiency": "Эффективность"
+    },
+    "charts": {
+      "dynamics_title": "Динамика показателей",
+      "dynamics_desc": "Сравнение текущего периода с предыдущим",
+      "current": "Текущий",
+      "previous": "Прошлый",
+      "distribution_title": "Распределение",
+      "distribution_desc": "По категориям / отделам"
+    },
+    "team_efficiency": "Эффективность команды",
+    "sales_funnel": "Воронка продаж",
+    "tasks_count": "{{count}} задач",
+    "funnel_steps": {
+      "leads": "Лиды",
+      "qualified": "Квалифицирован",
+      "proposal": "Предложение",
+      "negotiations": "Переговоры",
+      "deal": "Сделка"
+    }
+  },
+  "finance": {
+    "title": "Финансы",
+    "tabs": {
+      "overview": "Обзор",
+      "transactions": "Операции",
+      "planning": "Планирование",
+      "requests": "Заявки"
+    },
+    "sync_1c": "Синхронизация с 1С",
+    "new_transaction": "Новая операция",
+    "total_balance": "Общий баланс",
+    "income": "Доходы ({{month}})",
+    "expense": "Расходы ({{month}})",
+    "growth_month": "{{value}}% к прошлому месяцу",
+    "plan_progress": "{{value}}% от плана выполнено",
+    "budget_spent": "{{value}}% бюджета израсходовано",
+    "expense_distribution": "Распределение расходов по статьям",
+    "reconciliation": "Сверка с 1С и банками",
+    "synced_ago": "Синхронизировано {{time}} назад",
+    "unreconciled_ops": "Есть {{count}} нераспределенные операции",
+    "reconcile": "Сверить",
+    "search_placeholder": "Поиск по операциям...",
+    "filters": "Фильтры",
+    "upload_statement": "Загрузить выписку",
+    "export": "Экспорт",
+    "table": {
+      "date": "Дата",
+      "description": "Описание",
+      "category": "Категория",
+      "amount": "Сумма",
+      "source": "Источник",
+      "status": "Статус"
+    },
+    "status": {
+      "reconciled": "Сверено",
+      "pending": "Ожидает",
+      "approved": "Одобрено",
+      "on_approval": "На согласовании"
+    },
+    "planning_title": "Финансовый план: {{period}}",
+    "prev_period": "Предыдущий период",
+    "save_plan": "Сохранить план",
+    "expense_items": "Статьи расходов",
+    "fixed": "Фикс",
+    "percentage": "Процент ({{value}}% {{base}})",
+    "from_turnover": "от оборота",
+    "from_profit": "от прибыли",
+    "plan_value": "План: {{value}} ₽",
+    "add_item": "+ Добавить статью",
+    "forecast": "Прогноз на период",
+    "expected_profit": "Ожидаемая прибыль",
+    "margin": "Маржинальность",
+    "break_even": "Точка безубыточности",
+    "requests_title": "Заявки на выделение средств",
+    "create_request": "Создать заявку",
+    "category_label": "Категория: {{category}}",
+    "reject": "Отказ",
+    "approve": "Одобрить",
+    "pay": "Оплатить"
+  },
+  "marketplace": {
+    "title": "Готовые решения для вашего бизнеса",
+    "subtitle": "Устанавливайте отраслевые модули и интеграции в один клик.",
+    "all": "Все решения",
+    "industry": "Отраслевые",
+    "integration": "Интеграции",
+    "automation": "Автоматизация",
+    "search_placeholder": "Поиск решений...",
+    "my_purchases": "Мои покупки",
+    "partners": "Партнерам",
+    "top_10": "Смотреть топ-10",
+    "how_it_works": "Как это работает?",
+    "sort_by": "Сортировать:",
+    "popularity": "По популярности",
+    "install_now": "Установить сейчас",
+    "details": "Подробнее",
+    "free": "Бесплатно",
+    "price_from": "от {{price}} ₽ / мес",
+    "not_found": "Ничего не найдено",
+    "not_found_desc": "Попробуйте изменить параметры поиска или категорию"
+  },
+  "landing": {
+    "nav": {
+      "features": "Возможности",
+      "industries": "Для кого",
+      "integrations": "Интеграции",
+      "pricing": "Цены",
+      "login": "Войти",
+      "start": "Начать рост"
+    },
+    "hero": {
+      "badge": "Будущее автоматизации уже здесь",
+      "title": "Хватит просто работать. Начни доминировать на рынке",
+      "subtitle": "Uchetgram — это не просто CRM. Это твой цифровой директор, который выжимает максимум прибыли из каждого клиента, пока ты отдыхаешь.",
+      "cta_start": "Запустить рост бесплатно",
+      "cta_demo": "Смотреть демо"
+    },
+    "trust": {
+      "title": "Лидеры рынка выбирают Uchetgram"
+    },
+    "features": {
+      "title": "Возможности Uchetgram",
+      "subtitle": "Все инструменты для управления бизнесом в одной системе. Забудьте о десятках таблиц и разрозненных сервисах.",
+      "items": {
+        "booking": "Онлайн-запись",
+        "booking_desc": "Запись 24/7 через сайт и соцсети",
+        "crm": "Клиентская база",
+        "crm_desc": "Полная история посещений и предпочтений",
+        "journal": "Электронный журнал",
+        "journal_desc": "Удобное расписание и управление сменами",
+        "notifications": "Уведомления",
+        "notifications_desc": "SMS, WhatsApp и Push-напоминания",
+        "payments": "Прием платежей",
+        "payments_desc": "Онлайн-оплата и интеграция с кассами",
+        "analytics": "Аналитика",
+        "analytics_desc": "Отчеты по выручке, мастерам и клиентам",
+        "loyalty": "Программы лояльности",
+        "loyalty_desc": "Бонусы, скидки и подарочные сертификаты",
+        "finance": "Финансовый учет",
+        "finance_desc": "Контроль расходов и расчет прибыли",
+        "security": "Безопасность данных",
+        "security_desc": "Разграничение прав доступа и логирование",
+        "salary": "Расчет зарплат",
+        "salary_desc": "Автоматический расчет KPI и процентов",
+        "inventory": "Складской учет",
+        "inventory_desc": "Контроль остатков и списание расходников",
+        "telephony": "Телефония",
+        "telephony_desc": "Запись звонков и карточка клиента при звонке"
+      }
+    },
+    "industries": {
+      "title": "Решения для вашего бизнеса",
+      "subtitle": "Мы адаптировали Uchetgram под специфику различных отраслей. Выберите свое направление и начните работать эффективнее.",
+      "items": {
+        "beauty": "Красота",
+        "medical": "Медицина",
+        "sport": "Спорт",
+        "leisure": "Досуг и отдых",
+        "education": "Образование",
+        "auto": "Авто",
+        "services": "Бытовые услуги",
+        "retail": "Розница",
+        "private": "Частный специалист"
+      }
+    },
+    "pricing": {
+      "title": "Простые и честные цены",
+      "subtitle": "Выберите тариф, который подходит масштабу вашего бизнеса. Никаких скрытых платежей.",
+      "popular": "Популярный выбор",
+      "month": "₽/мес",
+      "cta_free": "Начать бесплатно",
+      "cta_trial": "Попробовать бесплатно",
+      "cta_contact": "Связаться с нами"
+    },
+    "cta": {
+      "title": "Готовы навести порядок в своем бизнесе?",
+      "subtitle": "Начните использовать Uchetgram сегодня. Первые 14 дней бесплатно, без привязки банковской карты.",
+      "button": "Создать аккаунт",
+      "contact": "Связаться с отделом продаж"
+    },
+    "footer": {
+      "desc": "Профессиональная ERP-система для малого и среднего бизнеса. Сделано с любовью к данным."
+    }
+  },
+  "processes": {
+    "title": "Бизнес-процессы",
+    "search_placeholder": "Поиск процессов...",
+    "filters": "Фильтры",
+    "templates": "Шаблоны",
+    "start_process": "Запустить процесс",
+    "status_active": "В работе",
+    "status_completed": "Завершен",
+    "steps_count": "{{completed}} / {{total}} шагов",
+    "id": "ID: {{id}}",
+    "started_at": "Запущен {{date}}",
+    "pause": "Приостановить",
+    "cancel": "Отменить",
+    "step_type": {
+      "task": "Задача",
+      "decision": "Решение",
+      "end": "Конец"
+    },
+    "assignee": "Ответственный",
+    "waiting_action": "Ожидание вашего действия",
+    "complete_step": "Завершить этап",
+    "completed_at": "Завершено {{date}}",
+    "result": "Результат: {{result}}",
+    "select_process": "Выберите процесс",
+    "select_process_desc": "Выберите активный бизнес-процесс из списка слева"
+  },
+  "sales": {
+    "title": "Продажи",
+    "filters": "Фильтры",
+    "search": "Поиск",
+    "export": "Экспорт",
+    "new_lead": "Новый лид",
+    "add": "Добавить",
+    "stages": {
+      "new": "Новые",
+      "qualify": "Квалификация",
+      "proposal": "Предложение",
+      "negotiation": "Переговоры",
+      "closing": "Закрытие"
+    },
+    "priorities": {
+      "critical": "Критический",
+      "high": "Высокий",
+      "medium": "Средний"
+    }
+  },
+  "settings": {
+    "title": "Настройки",
+    "tabs": {
+      "general": "Общие настройки",
+      "users": "Команда и роли",
+      "integrations": "Интеграции",
+      "security": "Безопасность",
+      "billing": "Тариф и оплата"
+    },
+    "general": {
+      "title": "Общие настройки",
+      "desc": "Управление основной информацией о вашей компании",
+      "company_name": "Название компании",
+      "currency": "Валюта",
+      "timezone": "Часовой пояс",
+      "save": "Сохранить изменения",
+      "danger_zone": "Опасная зона",
+      "delete_account": "Удалить аккаунт",
+      "delete_desc": "Удаление аккаунта приведет к безвозвратной потере всех данных."
+    },
+    "users": {
+      "title": "Команда",
+      "desc": "Управляйте доступом сотрудников к системе",
+      "invite": "Пригласить",
+      "status_active": "Активен",
+      "status_invited": "Приглашен"
+    },
+    "integrations": {
+      "title": "Интеграции",
+      "desc": "Подключите внешние сервисы для автоматизации",
+      "connected": "Подключено",
+      "disconnected": "Не подключено",
+      "sync": "Синхронизация: {{time}}",
+      "setup": "Настроить",
+      "connect": "Подключить"
+    },
+    "billing": {
+      "title": "Тариф и оплата",
+      "desc": "Управление подпиской и финансовыми документами",
+      "current_plan": "Текущий тариф",
+      "active_until": "Активен до {{date}}",
+      "upgrade": "Улучшить тариф",
+      "payment_history": "История платежей",
+      "invoice_no": "Счет №{{no}}"
+    }
+  }
+}
